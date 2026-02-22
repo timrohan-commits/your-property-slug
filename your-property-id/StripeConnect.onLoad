@@ -1,0 +1,110 @@
+Create an account
+
+Account information
+Acct Type : Individual as Landlord
+
+Full name :
+First name :Jenny
+Last name :Rosen
+Display name :Jenny Rosen
+Email :jenny.rosen@example.com
+Phone : +1201 555 0123 
+Password : 
+
+Create Listing
+VIVIA RENTALS – Standard Tenant Screening
+
+*Property Details*
+
+Country :United States
+Property address :
+Apartment, unit,:
+City :
+State :
+Zip code :
+- Number of Bedrooms :3
+- Number of Bathrooms : 2
+- Square Feet :890
+- Year Build optional : 1987
+- Monthly rent amount : $1,200
+- Security deposit : $1000
+- Lease term : 6 months, 1 year, 2 years
+
+*Property Type*
+
+- Single-family home  
+- Condo  
+- Townhouse  
+- Apartment  
+- Other applicable category  
+
+* Amenities and Utilities*
+
+ - Parking  
+- Laundry  
+- Appliances  
+- Internet  
+- Water  
+- Power  
+- Gas  
+- Other included services
+
+*Upload Listing Photos*
+
+- Exterior  
+- Living spaces  
+- Kitchen  
+- Bedrooms  
+- Bathrooms  
+- Additional features
+
+- Use horizontal (landscape) orientation  
+- Avoid vertical photos and screenshots  
+- Arrange photos in logical walkthrough order (exterior → main living areas → bedrooms → bathrooms → additional spaces)
+
+ *Verify Rent Price*
+
+Have the user review their rent amount using the rent-estimate or market-comparison tool to ensure the listing is competitively priced.
+
+Encourage adjustments if necessary.
+
+---
+
+ *Refresh Listing Content*
+
+Guide the user to:
+- Reorder photos for better visual flow  
+- Improve the headline  
+- Update the property description to highlight key features  
+- Emphasize amenities, location benefits, and upgrades  
+
+---
+*Verify Address Format*
+
+Confirm the property address follows standard formatting:
+
+123 Main Street, City, State, ZIP Code
+
+Correct any inconsistencies or missing information.
+
+---
+
+## Phone :201 555 0123
+ Confirm Marketing Status and Expectations
+Ensure marketing/advertising is turned on for the listing.
+
+Inform the user:
+- Listings may take *24–48 hours* to update across partner and syndication sites.
+- Updates to photos or content may also take time to propagate.
+
+-- This template returns the rate of customer who complete a Checkout session
+select
+  date_trunc('week', created) as week,
+  1.0 * count_if(status = 'complete') / count(*) as conversion
+from
+  checkout_sessions
+where
+  date_trunc('week', created) >= date '2024-01-01'
+group by
+  1
+<img src="https://editors-cdn.template.net/efc0b40f465208-44830ba8-b515-4d42-a3ef-0e6ef617d100.png" width="620"><h1>Executive Summary</h1><p>VIVIA Rentals is a new, technology-driven property management service founded by Jenny Rosen. The company is positioned to modernize the rental experience for property owners by leveraging automation and strategic marketing to maximize occupancy, streamline operations, and enhance profitability.</p><h2>Business Overview</h2><p>VIVIA Rentals provides a comprehensive, tech-forward management solution for residential rental properties. The core mission is to reduce owner workload and vacancy periods through a systematic, data-informed approach.</p><h3>Founder &amp; Vision</h3><p>Jenny Rosen is establishing VIVIA Rentals with a clear vision to bridge the gap between traditional property management and modern technological efficiency. The focus is on delivering reliable, high-touch service powered by intelligent systems.</p><h3>Core Service Model</h3><ul><li><p><strong>Structured Lease Terms:</strong> Offering flexible lease durations from 6 months to 2 years to cater to various tenant needs and market conditions.</p></li><li><p><strong>Diverse Property Types:</strong> Capable of managing a range of residential properties, including single-family homes, condos, and multi-unit buildings.</p></li><li><p><strong>Full-Service Management:</strong> Handling all aspects from tenant placement to maintenance coordination and financial reporting.</p></li></ul><h2>Strategic Advantages</h2><p>VIVIA's competitive edge is built on two proprietary, technology-centric systems designed to optimize the rental lifecycle.</p><img src="https://editors-cdn.template.net/f5e58e9c92a5b-4656b30d-81a4-4a0c-b354-9372e5a2dcb2.png" height="450"><h3>1. Automated Tenant Screening</h3><p>Utilizes advanced algorithms and data verification to efficiently and thoroughly qualify applicants. This process enhances tenant quality, reduces risk, and accelerates placement timelines.</p><h3>2. Multi-Platform Listing &amp; Lead Generation</h3><ul><li><p><strong>Syndicated Listings:</strong> Properties are automatically listed across major rental platforms to ensure maximum visibility.</p></li><li><p><strong>Live-Stream System:</strong> A proprietary method for generating qualified leads in real-time, dramatically increasing inquiry volume and speeding up the leasing process.</p></li></ul><h2>Expected Outcomes</h2><p>By integrating these strategic systems, VIVIA Rentals projects significant benefits for property owners.</p><h3>Maximized Financial Performance</h3><ul><li><p><strong>Higher Occupancy Rates:</strong> Reduced vacancy cycles through rapid, effective lead generation.</p></li><li><p><strong>Optimized Rental Revenue:</strong> Strategic pricing and qualified tenant placement protect and increase income streams.</p></li><li><p><strong>Operational Efficiency:</strong> Automation lowers administrative costs, improving net returns for owners.</p></li></ul><h3>Enhanced Owner Experience</h3><p>VIVIA's model is designed to provide peace of mind. Owners receive professional management, transparent communication, and detailed reporting, freeing them from day-to-day operational burdens.</p><h2>Conclusion</h2><p>VIVIA Rentals represents a modern, effective solution in the property management sector. By combining a structured service model with innovative technology for screening and marketing, the company is poised to deliver superior value, reliability, and financial results for residential property owners.</p>
